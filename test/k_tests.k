@@ -1,5 +1,5 @@
 | = require "../lib/pipe_utils"
-should = require "should"
+is = require "should"
 
 exports.test = {
   true.should.be.true
@@ -31,7 +31,18 @@ exports.each = {
   x.should.equal(6)
 }
 
+exports.inherits = {
+  a = {;}
+  a::fn = {;}
+  b = {;}
+  b | inherits a
+  
+  is.ok((new b).fn)
+}
+
+
 /*
+
 
 exports.chain = {
 }
