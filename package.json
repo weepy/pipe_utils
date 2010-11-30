@@ -1,6 +1,6 @@
 {
   "name": "pipe_utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utilities for use with the pipe operator in Kaffeine",
   "keywords": ["javascript", "kaffeine"],
   "author": "weepy",
