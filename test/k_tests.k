@@ -1,4 +1,4 @@
-| = require "../lib/pipe_utils"
+| = require ".."
 is = require "should"
 
 exports.test = {
