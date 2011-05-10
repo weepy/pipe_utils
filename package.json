@@ -1,6 +1,6 @@
 {
   "name": "pipe_utils",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Utilities for use with the pipe operator in Kaffeine",
   "keywords": ["javascript", "kaffeine"],
   "author": "weepy",
@@ -9,5 +9,5 @@
     "url": "http://github.com/weepy/kaffeine/raw/master/LICENSE"
   }],
   "repository": "http://github.com/weepy/pipe_utils",
-  "engines" : { "node": ">= 0.3.0" }
+  "engines" : { "node": ">= 0.4.0" }
 }
